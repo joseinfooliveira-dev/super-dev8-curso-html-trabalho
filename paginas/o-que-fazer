@@ -1,100 +1,53 @@
-Pasta (paginas)
-    Pasta (turmas)
-        Arquivo (index.html)
-        Arquivo (cadastro.html)
 
-# Turmas + Alunos
-# Professores + Coordenadores
+### login.html (fora da pasta 'paginas')
+    formulário action="index.html"
+        email
+        senha
+        botão tipo submit Entrar 
+        a href 'cadastrar.html'
 
-## Turmas:
-### Lista de Turmas paginas/turmas/index.html 
-    link para Voltar => index.html
-    link para página de cadastro da turma
-    tabela => 
-        colunas:
-            - Código
-            - Nome
-            - Carga Horária
-        linhas:
-            - 3 registros
-
-### Cadastro da Turma paginas/turmas/cadastro.html
-    link para Voltar => index.html
-    formulário
-        nome (input text)
-        carga horária (input number)
-
-## Professores
-### Lista de Professores paginas/professores/index.html
-    link para Voltar => index.html
-    link para página de cadastro do professor
-    tabela => 
-        colunas:
-            - Código
-            - Nome
-            - CPF
-        lihas:
-            - 4 registros
-
-### Cadastro do Professor paginas/professores/cadastro.html
-    link para Voltar => index.html
-    formulário
-        nome (input text)
-        cpf (input text)
-
-### Alunos
-
-### Lista de Alunos paginas/alunos/index.html 
-    link para Voltar => index.html
-    link para página de cadastro da aluno
-    tabela => 
-        colunas:
-            - Código
-            - Nome
-            - Data de Nascimento
-            - Imagem
-            - Série
-            - WhatsApp <a href="https://wa.me/5547988016336">WhatsApp</a>
-            - Login
-        lihas:
-            - 4 registros
-
-### Cadastro do Alunoa paginas/alunos/cadastro.html
-    link para Voltar => index.html
-    formulário
+### cadastrar.html (tela de cadastro para utilziar o sistema)
+    formulário action="login.html"
+        email
+        senha
+        cpf
+        cargo (Coordenador/Aluno/Professor)
         nome
-        data de nascimento
-        imagem (input type file)
-        série (select [1º Ano, 2º Ano e 3º Ano])
-        número do WhatsApp
-        Login
-        Senha
-        Button
+        sobrenome
+        justificativa (textarea)
+
+### home.html
+    Links no topo da página
+        sobre.html
+        contatos.html
+        trabalhe-conosco.html
+        login.html
+        cadastrar.html
+    Imagens de alunos com depoimentos
+    Premiações:
+        Tabela de Premiações:
+            Nome da Premiação
+            Foto
+            Estrelas (imagem/emoji com o número de estrelas)
 
 
-### Coordenadores
+### sobre.html (imagens, paragráfos)
+    História da empresa
+    Valores da empresa
+    Time que participa (4 pessoas principais)
 
-### Lista de Coordenadores paginas/coordenadores/index.html 
-    link para Voltar => index.html
-    link para página de cadastro do coordenador
-    tabela => 
-        colunas:
-            - Código
-            - Nome
-            - CNPJ
-            - Imagem
-            - Chave PIX
-            - WhatsApp <a href="https://wa.me/5547988016336">WhatsApp</a>
-            - Cargo
-        lihas:
-            - 3 registros
+### contatos.html
+    Telefone da escola
+    Fax da escola
+    E-mail da escola
+    Insta da escola
+    WhatsApp da escola
+    Telefones fixos
 
-### Cadastro do Cordenador paginas/coordenadores/cadastro.html
-    link para Voltar => index.html
-    formulário
-        nome
-        CNPJ
-        Imagem
-        Chave PIX
-        WhatsApp
-        Cargo (select [Junior, Pleno, Senior])
+### trabalhe-conosco.html
+    Vagas (select) Ex. Professor de Matemática, Professor de Geografia....
+    Anexo (input file)
+    E-mail do candidato
+    Fale sobre vc (textarea)
+    Telefone
+HTML - Exemplos do que foi passado
