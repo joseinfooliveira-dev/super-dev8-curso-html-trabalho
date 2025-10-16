@@ -1,12 +1,12 @@
 
-### login.html (fora da pasta 'paginas')
+<!-- ### login.html (fora da pasta 'paginas')
     formulário action="index.html"
         email
         senha
         botão tipo submit Entrar 
-        a href 'cadastrar.html'
+        a href 'cadastrar.html' -->
 
-### cadastrar.html (tela de cadastro para utilziar o sistema)
+<!-- ### cadastrar.html (tela de cadastro para utilziar o sistema)
     formulário action="login.html"
         email
         senha
@@ -14,15 +14,15 @@
         cargo (Coordenador/Aluno/Professor)
         nome
         sobrenome
-        justificativa (textarea)
+        justificativa (textarea) -->
 
 ### home.html
     Links no topo da página
-        sobre.html
-        contatos.html
-        trabalhe-conosco.html
-        login.html
-        cadastrar.html
+        🆗sobre.html
+        🆗contatos.html
+        🆗trabalhe-conosco.html
+        🆗login.html
+        🆗cadastrar.html
     Imagens de alunos com depoimentos
     Premiações:
         Tabela de Premiações:
@@ -30,24 +30,24 @@
             Foto
             Estrelas (imagem/emoji com o número de estrelas)
 
-
+<!-- 
 ### sobre.html (imagens, paragráfos)
     História da empresa
     Valores da empresa
-    Time que participa (4 pessoas principais)
+    Time que participa (4 pessoas principais) -->
 
-### contatos.html
+<!-- ### contatos.html
     Telefone da escola
     Fax da escola
     E-mail da escola
     Insta da escola
     WhatsApp da escola
-    Telefones fixos
+    Telefones fixos -->
 
-### trabalhe-conosco.html
+<!-- ### trabalhe-conosco.html
     Vagas (select) Ex. Professor de Matemática, Professor de Geografia....
     Anexo (input file)
     E-mail do candidato
     Fale sobre vc (textarea)
     Telefone
-HTML - Exemplos do que foi passado
+HTML - Exemplos do que foi passado -->
